@@ -8,6 +8,7 @@
 |-------|------|
 | [feishu-isolation-setup](./skills/feishu-isolation-setup/) | 飞书机器人多用户隔离配置（会话隔离、记忆隔离） |
 | [skill-sync-to-github](./skills/skill-sync-to-github/) | 将本地 skill 同步到 GitHub 仓库 |
+| [npm-to-docker](./skills/npm-to-docker/) | 将npm全局安装的应用容器化为Docker镜像 |
 
 ## 使用方法
 
