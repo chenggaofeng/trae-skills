@@ -1,0 +1,6 @@
+interface:
+  display_name: "OpenClaw Local Rescue"
+  short_description: "Diagnose and rescue a local OpenClaw from tx-2 guidance"
+  default_prompt: "Use $openclaw-local-rescue to diagnose why my local OpenClaw stopped responding and keep bailian/kimi-k2.5 as the default model."
+policy:
+  allow_implicit_invocation: true
