@@ -1,6 +1,6 @@
 ---
 name: "openclaw-local-rescue"
-description: "从 tx-2 或其他辅助环境快速诊断和救援本机 OpenClaw。当用户说本机 OpenClaw 没响应、Control UI 卡死、Kimi 2.5 默认模型疑似丢失、或需要远程协助排障时调用此 skill。"
+description: "从 tx-2 或其他辅助环境快速诊断和救援本机 OpenClaw。当用户说“救援mac”、本机 OpenClaw 没响应、Control UI 卡死、Kimi 2.5 默认模型疑似丢失、或需要远程协助排障时调用此 skill。"
 metadata:
   short-description: "救援本机 OpenClaw，优先恢复网关与 Kimi 2.5"
 ---
@@ -18,6 +18,7 @@ metadata:
 
 ## 何时使用
 
+- 用户直接说“救援mac”
 - 用户说“本机 openclaw 没响应了”
 - 用户说“Control UI 卡死 / 没有响应”
 - 用户怀疑 `kimi-k2.5` 不再是默认模型
